@@ -58,6 +58,8 @@ export const CalendarModal = () => {
       setFormValues(activeEvent);
       setDateStart(activeEvent.start);
       setDateFinish(activeEvent.end);
+    } else {
+      setFormValues(intialEvent);
     }
   }, [activeEvent, setFormValues]);
 
@@ -118,7 +120,6 @@ export const CalendarModal = () => {
     closeModal();
     dispatch(eventClearActiveNote());
 
-    console.log(` El evento es: ${activeEvent}`);
     //TO DO: realizar la grabación en la base de datos
     dispatch(
       activeEvent === null
@@ -145,7 +146,7 @@ export const CalendarModal = () => {
       className="modal"
       overlayClassName="modal-fondo"
     >
-      <h1> Nuevo evento </h1>
+      <h1> {activeEvent ? title : "Nuevo Evento"} </h1>
       <hr />
       <form className="container" onSubmit={handleSubmitForm}>
         <div className="form-group">

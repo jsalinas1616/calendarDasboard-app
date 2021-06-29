@@ -1,5 +1,4 @@
 import { types } from "../types/types";
-import moment from "moment";
 
 const initialState = {
   events: [
@@ -42,6 +41,13 @@ export const calendarReducer = (state = initialState, action) => {
           e.id === action.payload.id ? action.payload : e
         ),
       };
+    case types.eventDeleted:
+      return {
+        ...state,
+        events: state.events.filter((e) => e.id !== state.activeEvent.id),
+        activeEvent: null,
+      };
+
     default:
       return state;
   }

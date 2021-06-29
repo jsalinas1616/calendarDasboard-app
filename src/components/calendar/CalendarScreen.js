@@ -15,8 +15,9 @@ import { uiOpenModal } from "../../actions/uiActions";
 // Setup the localizer by providing the moment (or globalize) Object
 // to the correct localizer.
 import "moment/locale/es";
-import { eventSetActive } from "../../actions/events";
+import { eventClearActiveNote, eventSetActive } from "../../actions/events";
 import { AddNewFab } from "../ui/AddNewFab";
+import { DeleteEventFab } from "../ui/DeleteEventFab";
 
 moment.locale("es");
 const localizer = momentLocalizer(moment); // or globalizeLocalizer
@@ -36,7 +37,7 @@ const localizer = momentLocalizer(moment); // or globalizeLocalizer
 
 export const CalendarScreen = () => {
   const dispatch = useDispatch();
-  const { events } = useSelector((state) => state.calendar);
+  const { events, activeEvent } = useSelector((state) => state.calendar);
 
   const [lastView, setLastView] = useState(
     localStorage.getItem("lastView") || "month"
@@ -46,12 +47,17 @@ export const CalendarScreen = () => {
   };
 
   const onSelectEvent = (e) => {
+    console.log(e);
     dispatch(eventSetActive(e));
   };
 
   const onViewEvent = (e) => {
     setLastView(e);
     localStorage.setItem("lastView", e);
+  };
+
+  const onSelectSlot = (e) => {
+    dispatch(eventClearActiveNote());
   };
 
   const eventStyleGetter = (event, start, end, isSelected) => {
@@ -80,10 +86,14 @@ export const CalendarScreen = () => {
         onDoubleClickEvent={onDoubleClickEvent}
         onSelectEvent={onSelectEvent}
         onView={onViewEvent}
+        onSelectSlot={onSelectSlot}
+        selectable={true}
         view={lastView}
         eventPropGetter={eventStyleGetter}
         components={{ event: CalendarEvent }}
       />
+
+      {activeEvent && <DeleteEventFab />}
       <AddNewFab />
       <CalendarModal />
     </div>

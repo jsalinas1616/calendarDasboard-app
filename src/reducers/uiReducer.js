@@ -16,6 +16,11 @@ export const uiReducer = (state = initialState, action) => {
         ...state,
         modalOpen: false,
       };
+    case types.eventDobleClickOpenModal:
+      return {
+        ...state,
+        modalOpen: true,
+      };
     default:
       return state;
   }
