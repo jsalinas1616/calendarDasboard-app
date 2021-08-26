@@ -1,0 +1,29 @@
+"filename", "language", "JavaScript", "CSS", "comment", "blank", "total"
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/CalendarApp.js", "JavaScript", 13, 0, 0, 2, 15
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/actions/auth.js", "JavaScript", 79, 0, 0, 13, 92
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/actions/events.js", "JavaScript", 82, 0, 0, 22, 104
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/actions/uiActions.js", "JavaScript", 11, 0, 0, 3, 14
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/components/auth/LoginScreen.js", "JavaScript", 114, 0, 0, 15, 129
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/components/auth/login.css", "CSS", 0, 50, 0, 1, 51
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/components/calendar/CalendarEvent.js", "JavaScript", 10, 0, 0, 2, 12
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/components/calendar/CalendarModal.js", "JavaScript", 172, 0, 5, 28, 205
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/components/calendar/CalendarScreen.js", "JavaScript", 79, 0, 3, 15, 97
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/components/ui/AddNewFab.js", "JavaScript", 14, 0, 0, 3, 17
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/components/ui/DeleteEventFab.js", "JavaScript", 14, 0, 0, 5, 19
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/components/ui/Navbar.js", "JavaScript", 19, 0, 0, 5, 24
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/helpers/calendar-messages-es.js", "JavaScript", 15, 0, 0, 1, 16
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/helpers/fetch.js", "JavaScript", 37, 0, 0, 5, 42
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/helpers/prepareEvents.js", "JavaScript", 8, 0, 0, 2, 10
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/hooks/useForm.js", "JavaScript", 14, 0, 0, 5, 19
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/index.js", "JavaScript", 6, 0, 0, 4, 10
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/reducers/authReducer.js", "JavaScript", 25, 0, 0, 4, 29
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/reducers/calendarReducer.js", "JavaScript", 44, 0, 12, 6, 62
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/reducers/rootReducer.js", "JavaScript", 9, 0, 0, 3, 12
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/reducers/uiReducer.js", "JavaScript", 25, 0, 0, 3, 28
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/routers/AppRouter.js", "JavaScript", 36, 0, 5, 8, 49
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/routers/PrivateRoute.js", "JavaScript", 21, 0, 0, 3, 24
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/routers/PublicRoute.js", "JavaScript", 21, 0, 0, 3, 24
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/store/store.js", "JavaScript", 11, 0, 0, 3, 14
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/styles.css", "CSS", 0, 68, 3, 14, 85
+"/Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/types/types.js", "JavaScript", 17, 0, 0, 3, 20
+"Total", "-", 896, 118, 28, 181, 1223

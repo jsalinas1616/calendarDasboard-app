@@ -1,0 +1,63 @@
+Date : 2021-08-26 12:03:25
+Directory : /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src
+Total : 27 files,  1014 codes, 28 comments, 181 blanks, all 1223 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         25 |        896 |         25 |        166 |      1,087 |
+| CSS        |          2 |        118 |          3 |         15 |        136 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                       | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                          |         27 |      1,014 |         28 |        181 |      1,223 |
+| actions                                                                                                                                    |          3 |        172 |          0 |         38 |        210 |
+| components                                                                                                                                 |          8 |        472 |          8 |         74 |        554 |
+| components/auth                                                                                                                            |          2 |        164 |          0 |         16 |        180 |
+| components/calendar                                                                                                                        |          3 |        261 |          8 |         45 |        314 |
+| components/ui                                                                                                                              |          3 |         47 |          0 |         13 |         60 |
+| helpers                                                                                                                                    |          3 |         60 |          0 |          8 |         68 |
+| hooks                                                                                                                                      |          1 |         14 |          0 |          5 |         19 |
+| reducers                                                                                                                                   |          4 |        103 |         12 |         16 |        131 |
+| routers                                                                                                                                    |          3 |         78 |          5 |         14 |         97 |
+| store                                                                                                                                      |          1 |         11 |          0 |          3 |         14 |
+| types                                                                                                                                      |          1 |         17 |          0 |          3 |         20 |
++--------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                                   | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/CalendarApp.js                        | JavaScript |         13 |          0 |          2 |         15 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/actions/auth.js                       | JavaScript |         79 |          0 |         13 |         92 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/actions/events.js                     | JavaScript |         82 |          0 |         22 |        104 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/actions/uiActions.js                  | JavaScript |         11 |          0 |          3 |         14 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/components/auth/LoginScreen.js        | JavaScript |        114 |          0 |         15 |        129 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/components/auth/login.css             | CSS        |         50 |          0 |          1 |         51 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/components/calendar/CalendarEvent.js  | JavaScript |         10 |          0 |          2 |         12 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/components/calendar/CalendarModal.js  | JavaScript |        172 |          5 |         28 |        205 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/components/calendar/CalendarScreen.js | JavaScript |         79 |          3 |         15 |         97 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/components/ui/AddNewFab.js            | JavaScript |         14 |          0 |          3 |         17 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/components/ui/DeleteEventFab.js       | JavaScript |         14 |          0 |          5 |         19 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/components/ui/Navbar.js               | JavaScript |         19 |          0 |          5 |         24 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/helpers/calendar-messages-es.js       | JavaScript |         15 |          0 |          1 |         16 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/helpers/fetch.js                      | JavaScript |         37 |          0 |          5 |         42 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/helpers/prepareEvents.js              | JavaScript |          8 |          0 |          2 |         10 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/hooks/useForm.js                      | JavaScript |         14 |          0 |          5 |         19 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/index.js                              | JavaScript |          6 |          0 |          4 |         10 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/reducers/authReducer.js               | JavaScript |         25 |          0 |          4 |         29 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/reducers/calendarReducer.js           | JavaScript |         44 |         12 |          6 |         62 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/reducers/rootReducer.js               | JavaScript |          9 |          0 |          3 |         12 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/reducers/uiReducer.js                 | JavaScript |         25 |          0 |          3 |         28 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/routers/AppRouter.js                  | JavaScript |         36 |          5 |          8 |         49 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/routers/PrivateRoute.js               | JavaScript |         21 |          0 |          3 |         24 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/routers/PublicRoute.js                | JavaScript |         21 |          0 |          3 |         24 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/store/store.js                        | JavaScript |         11 |          0 |          3 |         14 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/styles.css                            | CSS        |         68 |          3 |         14 |         85 |
+| /Users/juliansalinas/Documents/Proyectos/curso fernando herrera udemy hooks mern/09-calendar-app/src/types/types.js                        | JavaScript |         17 |          0 |          3 |         20 |
+| Total                                                                                                                                      |            |      1,014 |         28 |        181 |      1,223 |
++--------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
